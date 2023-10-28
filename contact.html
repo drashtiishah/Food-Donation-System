@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+  <style>
+    :root{
+    --primary-color: #21D192;
+    --secondary-color: rgba(0, 0, 0, 0.2);
+}  
+
+    .navbar{
+    height: 10vh;
+    background-color: var(--primary-color);
+}
+
+    .sec-img {
+      height: 70vh;
+    }
+
+    #sec1 .container {
+      height: 25vh;
+      margin-top: -65vh;
+    }
+
+    .section-text {
+      /* border: 2px solid purple; */
+      color: white;
+    }
+
+    #sec2 {
+      margin-top: 50vh;
+    }
+
+    #sec3 .container {
+      max-width: 75%;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="header">
+    <nav class="navbar navbar-expand-lg fs-5">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <div class="logo">
+            <img src="img/iconn.png" alt="HOPE" width="60px">
+          </div>
+        </a>
+        <div class="logo-name mt-3">
+          <pre><h3 class="mb-0">H.O.P.E</h3>Helping Out People Eat</pre>
+          <!-- <p>H.O.P.E</p>
+          <p class="logo-phrase fs-6">Helping Out People Eat</p> -->
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html" target="_blank">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" target="_blank">Contact</a>
+            </li>
+          </ul>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end ps-2 loginbutton">
+            
+            <a href="signup.html" target="_blank" class="btn btn-dark me-md-2 ">Sign Up </a>
+            <a href="login.html" target="_blank" class="btn btn-dark">Log In </a> 
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div id="sec1">
+    <div class="sec-img ratio position-relative z-0">
+      <img src="img/bg_contact.png" alt="...">
+    </div>
+
+    <div class="container d-flex justify-content-center">
+      <div class="section-text text-white position-absolute z-3 fs-1">
+        <p>Contact Us</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="sec2">
+    <div class="heading mb-3 d-flex justify-content-center">
+      <h2>Contact Information</h2>
+    </div>
+
+    <div class="information d-flex justify-content-center">
+      <div class="card" style="width: 24rem">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <h4>Drashti Shah</h4>
+          </li>
+          <!-- <li class="list-group-item">+917048360986</li> -->
+          <li class="list-group-item"><a href="#"><span class="text">&#9743; +917048360986</span></a></li>
+          <!-- <li class="list-group-item">Drashtishah@gmail.com</li> -->
+          <li class="list-group-item"><a href="#"><span class="text">&#x2709; Drashtishah@gmail.com</span></a></li>
+        </ul>
+      </div>
+
+      <div class="card" style="width: 24rem">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item" font-weight="12px">
+            <h4>Jalak Raigandhi</h4>
+          </li>
+          <!-- <li class="list-group-item">7567435625</li> -->
+          <li class="list-group-item"><a href="#"><span class="text">&#9743; +917567435625</span></a></li>
+          <!-- <li class="list-group-item">jalakRaigandhi@gmail.com</li> -->
+          <li class="list-group-item"><a href="#"><span class="text">&#x2709; jalakRaigandhi@gmail.com</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="sec3">
+    <div class="container mt-5">
+      <div class="heading">
+        <h2>Feedback</h2>
+      </div>
+      <div class="form">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">User Name</label>
+          <input type="name" name="name" class="form-control" id="exampleFormControlInput1" placeholder="Enter name">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter email">
+        </div>
+        <div class="mb-3">
+          <label for="form-control1">Rating (between 0 and 5):</label>
+
+          <input type="range" class="form-control1" name="val" placeholder="Rate Us" min="0" max="5" required>
+          <!-- <input type="submit" value="Submit"> -->
+
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"></label>
+          <textarea class="form-control" name="feedback" id="exampleFormControlTextarea1" rows="3"
+            placeholder="Share your Experience"></textarea>
+        </div>
+        <div class="mb-3">
+          <input type="submit" name="done" value="done" class="btn btn-dark py-2 px-4">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer">
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-dark" style="background-color: #ECEFF1">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-between p-4 text-white" style="background-color: var(--primary-color)">
+        <!-- Left -->
+        <div class="me-5">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold">About Us</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px" />
+              <p>
+                We are team of problem solvers, who are trying to contribute towards Zero Hunger mission. .
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Site Links</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px" />
+
+              <p>
+                <a href="index.html" class="text-dark">Home</a>
+              </p>
+              <p>
+                <a href="about.html" class="text-dark">About</a>
+              </p>
+              <p>
+                <a href="contact.html" class="text-dark">Contact</a>
+              </p>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Have a Questions?</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px" />
+              <p><i class="fas fa-home mr-3"></i> 30,Nava Bazar,Vadodara</p>
+              <p><i class="fas fa-envelope mr-3"></i> &#x2709; drashtiishah@gmail.com</p>
+              <p><i class="fas fa-phone mr-3"></i> &#9743; +91 7567435625</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: var(--secondary-color)">
+        Copyright &copy; is made with &#x1F9E1;<i class="icon-heart" aria-hidden="true"></i> by <b>Drashti and Jalak</b>
+
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!-- Footer -->
+  </div>
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
+
+
+<?php
+
+include 'connection.php';
+if(isset($_POST['done'])){
+
+    $User_name = $_POST[name];
+    $User_email = $_POST[email];
+    $Rating = $_POST[val];
+    $Feedback = $_POST[feedback];
+
+    $sql = " INSERT INTO feedback (User_name, User_email, Rating, Feedback)
+    VALUES ('$User_name', '$User_email', '$Rating', '$Feedback') ";
+
+    $res = mysqli_query($conn,$sql);
+
+}
+
+?>
